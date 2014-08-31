@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>保持一颗激情的心</title><link href="./" rel="alternate"></link><link href="./feeds%5Cdragondjf.atom.xml" rel="self"></link><id>./</id><updated>2014-08-31T16:21:00+08:00</updated><entry><title>2014 12月学习计划</title><link href="./plan/1.html" rel="alternate"></link><updated>2014-08-31T16:21:00+08:00</updated><author><name>dragondjf</name></author><id>tag:,2014-08-31:./plan/1.html</id><summary type="html">&lt;h3&gt;1.需要完成的任务&lt;/h3&gt;
+&lt;p&gt;完成QSetup项目，基于Qt和7z的安装报制作工具，具备以下功能：
+1. 快速安装
+2. 自定义安装
+3. 个性化选项配置：安装路径，快捷方式，开机自启动，任务栏，开始菜单等等
+4. 简单大气的安装进度条
+5. 安装完成后打开readem 和 自动运行程序&lt;/p&gt;
+&lt;h3&gt;2.需要学习框架：&lt;/h3&gt;
+&lt;p&gt;1.ffpython 
+    ffpython—C++ 嵌入、扩展Python的开发库
+    并将这个库集成到QFramer中去，思考如何在c++程序中使用python,并总结一套合理的开发流程和规范&lt;/p&gt;
+&lt;p&gt;2.学习thrift 
+    Thrfit是一种开源的跨语言的服务部署框架，这里的服务是指RPC，即远程过程调用了。它最初是由Facebook开发的，后来Facebook将其开源了。&lt;/p&gt;</summary><category term="plan"></category><category term="学习"></category></entry><entry><title>2014 12月学习计划</title><link href="./plan/2.html" rel="alternate"></link><updated>2014-08-31T16:21:00+08:00</updated><author><name>dragondjf</name></author><id>tag:,2014-08-31:./plan/2.html</id><summary type="html">&lt;h3&gt;1.需要完成的任务&lt;/h3&gt;
+&lt;p&gt;完成QSetup项目，基于Qt和7z的安装报制作工具，具备以下功能：
+1. 快速安装
+2. 自定义安装
+3. 个性化选项配置：安装路径，快捷方式，开机自启动，任务栏，开始菜单等等
+4. 简单大气的安装进度条
+5. 安装完成后打开readem 和 自动运行程序&lt;/p&gt;
+&lt;h3&gt;2.需要学习框架：&lt;/h3&gt;
+&lt;p&gt;1.ffpython 
+    ffpython—C++ 嵌入、扩展Python的开发库
+    并将这个库集成到QFramer中去，思考如何在c++程序中使用python,并总结一套合理的开发流程和规范&lt;/p&gt;
+&lt;p&gt;2.学习thrift 
+    Thrfit是一种开源的跨语言的服务部署框架，这里的服务是指RPC，即远程过程调用了。它最初是由Facebook开发的，后来Facebook将其开源了。&lt;/p&gt;</summary><category term="plan"></category><category term="学习"></category></entry><entry><title>2014 10月学习计划</title><link href="./git/10.html" rel="alternate"></link><updated>2014-08-31T16:20:00+08:00</updated><author><name>dragondjf</name></author><id>tag:,2014-08-31:./git/10.html</id><summary type="html">&lt;h3&gt;1.需要完成的任务&lt;/h3&gt;
+&lt;p&gt;完成QSetup项目，基于Qt和7z的安装报制作工具，具备以下功能：
+1. 快速安装
+2. 自定义安装
+3. 个性化选项配置：安装路径，快捷方式，开机自启动，任务栏，开始菜单等等
+4. 简单大气的安装进度条
+5. 安装完成后打开readem 和 自动运行程序&lt;/p&gt;
+&lt;h3&gt;2.需要学习框架：&lt;/h3&gt;
+&lt;p&gt;1.ffpython 
+    ffpython—C++ 嵌入、扩展Python的开发库
+    并将这个库集成到QFramer中去，思考如何在c++程序中使用python,并总结一套合理的开发流程和规范&lt;/p&gt;
+&lt;p&gt;2.学习thrift 
+    Thrfit是一种开源的跨语言的服务部署框架，这里的服务是指RPC，即远程过程调用了。它最初是由Facebook开发的，后来Facebook将其开源了。&lt;/p&gt;</summary><category term="plan"></category><category term="学习"></category></entry><entry><title>2014 11月学习计划</title><link href="./git/11.html" rel="alternate"></link><updated>2014-08-31T16:20:00+08:00</updated><author><name>dragondjf</name></author><id>tag:,2014-08-31:./git/11.html</id><summary type="html">&lt;h3&gt;1.需要完成的任务&lt;/h3&gt;
+&lt;p&gt;完成QSetup项目，基于Qt和7z的安装报制作工具，具备以下功能：
+1. 快速安装
+2. 自定义安装
+3. 个性化选项配置：安装路径，快捷方式，开机自启动，任务栏，开始菜单等等
+4. 简单大气的安装进度条
+5. 安装完成后打开readem 和 自动运行程序&lt;/p&gt;
+&lt;h3&gt;2.需要学习框架：&lt;/h3&gt;
+&lt;p&gt;1.ffpython 
+    ffpython—C++ 嵌入、扩展Python的开发库
+    并将这个库集成到QFramer中去，思考如何在c++程序中使用python,并总结一套合理的开发流程和规范&lt;/p&gt;
+&lt;p&gt;2.学习thrift 
+    Thrfit是一种开源的跨语言的服务部署框架，这里的服务是指RPC，即远程过程调用了。它最初是由Facebook开发的，后来Facebook将其开源了。&lt;/p&gt;</summary><category term="plan"></category><category term="学习"></category></entry><entry><title>2014 9月学习计划</title><link href="./python/9.html" rel="alternate"></link><updated>2014-08-31T16:20:00+08:00</updated><author><name>dragondjf</name></author><id>tag:,2014-08-31:./python/9.html</id><summary type="html">&lt;h3&gt;1.需要完成的任务&lt;/h3&gt;
+&lt;p&gt;完成QSetup项目，基于Qt和7z的安装报制作工具，具备以下功能：
+1. 快速安装
+2. 自定义安装
+3. 个性化选项配置：安装路径，快捷方式，开机自启动，任务栏，开始菜单等等
+4. 简单大气的安装进度条
+5. 安装完成后打开readem 和 自动运行程序&lt;/p&gt;
+&lt;h3&gt;2.需要学习框架：&lt;/h3&gt;
+&lt;p&gt;1.ffpython 
+    ffpython—C++ 嵌入、扩展Python的开发库
+    并将这个库集成到QFramer中去，思考如何在c++程序中使用python,并总结一套合理的开发流程和规范&lt;/p&gt;
+&lt;p&gt;2.学习thrift 
+    Thrfit是一种开源的跨语言的服务部署框架，这里的服务是指RPC，即远程过程调用了。它最初是由Facebook开发的，后来Facebook将其开源了。&lt;/p&gt;</summary><category term="plan"></category><category term="学习"></category></entry></feed>
