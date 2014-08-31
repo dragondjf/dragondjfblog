@@ -86,7 +86,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 github: publish
-	cd $(OUTPUTDIR) ; git init; git remote add origin git@github.com:dragondjf/dragondjf.github.io.git ;  git branch --set-upstream-to=origin/master master; git pull; git status; git add --all ;git pull;  git commit -am 'update'; git push --set-upstream origin master
+	cd $(OUTPUTDIR) ; git init; git remote add origin git@github.com:dragondjf/dragondjf.github.io.git ;  git branch --set-upstream-to=origin/master master; git pull; git status; git add --all ; git commit -m "update"; git pull; git add --all ; git commit -m "update";git push
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
