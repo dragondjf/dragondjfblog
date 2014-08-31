@@ -1,0 +1,10 @@
+    {% if article.tags %}
+         <div class="footer">
+            <ul class="tags">{% for tag in article.tags %}
+                <li>
+                    <a href="{{ SITEURL }}/{{ tag.url }}">{{ tag }}</a>
+                </li>{% endfor %}
+            </ul>
+        </div>
+    {% endif %}
+
