@@ -433,7 +433,7 @@ h3 { margin-top: 2.5em; }
 .article table th,
 .article table td {
   padding: 0px 0px;
-  border: 1px solid #ddd;
+  border: 0px solid #ddd;
 }
 
 .article table tr {
