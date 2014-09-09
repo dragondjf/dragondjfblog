@@ -86,7 +86,7 @@ publish:
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 github: publish
-	cp -rf $(OUTPUTDIR) dragondjf.github.io/; git status; git add --all ; git commit -m "update";git push
+	cp -rf $(OUTPUTDIR) dragondjf.github.io/; git pull; git status; git add --all ; git commit -m "update";git push
 
 ssh_upload: publish
 	scp -P $(SSH_PORT) -r $(OUTPUTDIR)/* $(SSH_USER)@$(SSH_HOST):$(SSH_TARGET_DIR)
