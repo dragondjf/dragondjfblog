@@ -61,6 +61,8 @@ LINKS = (('Github', 'https://github.com/dragondjf'),
 
 # Social widget
 SOCIAL = (('Google', 'http://wen.lu/'),
+          ('百度FEX', 'http://fex.baidu.com/'),
+          ('腾讯AlloyTeam', 'http://www.alloyteam.com/')
          )
 
 
