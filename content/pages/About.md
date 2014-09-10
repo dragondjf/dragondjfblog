@@ -10,7 +10,7 @@ slug: about
 
 QQ: 465398889
 
-简介：``生生不息地走在互联网这条不归路``, 热爱Python、QT、Git, Web , Matlab等
+简介：``生生不息地走在互联网这条不归路上``, 热爱Python、QT、Git, Web , Matlab等
 
 个人作品：
 
