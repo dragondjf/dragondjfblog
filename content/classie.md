@@ -7,7 +7,7 @@ Author: dragondjf
 Summary:   
 
 
->在html中引入<script src="classie.js"></script>即可在后续js中利用``classie``对象为documentElement 判断是否包含、 增加 或 删除某个class。
+>在html中引入``<script src="classie.js"></script>``即可在后续js中利用``classie``对象为documentElement 判断是否包含、 增加 或 删除某个class。
 
     /*!
      * classie - class helper functions
