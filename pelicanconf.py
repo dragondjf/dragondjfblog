@@ -63,7 +63,8 @@ LINKS = (('Github', 'https://github.com/dragondjf'),
 # Social widget
 SOCIAL = (('Google', 'http://wen.lu/'),
           ('百度FEX', 'http://fex.baidu.com/'),
-          ('腾讯AlloyTeam', 'http://www.alloyteam.com/')
+          ('腾讯AlloyTeam', 'http://www.alloyteam.com/'),
+          ('codrops', 'http://tympanus.net/codrops/')
          )
 
 
@@ -80,6 +81,8 @@ EXTRA_PATH_METADATA = {
         'extra/robots.txt': {'path': 'robots.txt'},
         # 'extra/googlec0086f9e29fad494.html': {'path': 'googlec0086f9e29fad494.html' },
     }
+
+FAVICON = 'extra/favicon.ico'
 
 PLUGIN_PATHS = [u"pelican-plugins"]
 PLUGINS = ["sitemap", "summary", "related_posts"]
