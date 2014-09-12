@@ -13,7 +13,7 @@ Summary: tornado 之 ioloop模块解读
 ####2.ioloop中使用的模块依赖一览表
 + **标准库：**
 
-| 模块      |     作用 |   备注   |
+| 模块      |  作用 |   备注   |
 | :-------- | --------:| :------: |
 | [errno](https://docs.python.org/2/library/errno.html)    |   standard errno system symbols |  标准的系统错误符号库  |
 | [functools](https://docs.python.org/2/library/functools.html)|  Higher-order functions and operations on callable objects|操作改变可调用的对象|
