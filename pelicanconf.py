@@ -66,7 +66,8 @@ LINKS = (('Github', 'https://github.com/dragondjf'),
 SOCIAL = (('Google', 'http://wen.lu/'),
           ('百度FEX', 'http://fex.baidu.com/'),
           ('腾讯AlloyTeam', 'http://www.alloyteam.com/'),
-          ('codrops', 'http://tympanus.net/codrops/')
+          ('codrops', 'http://tympanus.net/codrops/'),
+          ('programiz', 'http://www.programiz.com/')
          )
 
 
