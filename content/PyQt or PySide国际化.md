@@ -1,5 +1,5 @@
 Title: PyQt/PySide 国际化实现  
-Date: 2014-9-10 16:20  
+Date: 2014-9-13 19:56  
 Category: PyQt/PySide  
 Tags: PyQt, PySide, Qt, Python  
 Slug: PyQt/PySide   

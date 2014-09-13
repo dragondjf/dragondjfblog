@@ -16,7 +16,9 @@
     <link href="{{ SITEURL }}/theme/bootstrap.min.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/bootstrap.min.responsive.css" rel="stylesheet">
     <link href="{{ SITEURL }}/theme/local.css" rel="stylesheet">
-    <link href="{{ SITEURL }}/theme/pygments.css" rel="stylesheet">
+    <!-- <link href="{{ SITEURL }}/theme/pygments.css" rel="stylesheet"> -->
+    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/styles/default.min.css">
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.2/highlight.min.js"></script>
 
 </head>
 
@@ -139,4 +141,11 @@
 {% include "analytics.html" %}
 {% include "github.html" %} 
 </body>
+<script>
+    $(document).ready(function() {
+      $('pre').each(function(i, block) {
+        hljs.highlightBlock(block);
+      });
+    });
+</script>
 </html>

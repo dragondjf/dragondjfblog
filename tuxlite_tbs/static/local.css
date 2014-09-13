@@ -531,7 +531,7 @@ h3 { margin-top: 2.5em; }
   content: normal;
 }
 
-.article .highlight {
+/*.article .highlight {
   background: #ffffff;
 }
 
@@ -798,7 +798,7 @@ h3 { margin-top: 2.5em; }
 .article .highlight .gc {
   color: #999;
   background-color: #EAF2F5;
-}
+}*/
 
 .article .octicon {
   font: normal normal 16px octicons-anchor;
