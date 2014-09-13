@@ -25,7 +25,9 @@
 
 
 /* Styling for elements */
-body { font-size: 100%; }
+body { font-size: 100%; 
+  background-color: #e5e5e5;
+}
 p { font-size: 100%; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
 h3 { margin-top: 2.5em; }
