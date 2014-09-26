@@ -25,7 +25,9 @@
 
 
 /* Styling for elements */
-body { font-size: 100%; }
+body { font-size: 100%; 
+  background-color: #e5e5e5;
+}
 p { font-size: 100%; line-height: 1.6em; margin-top: 0.8em; margin-bottom: 0.8em; }
 li { line-height: 1.6em; }
 h3 { margin-top: 2.5em; }
@@ -531,7 +533,7 @@ h3 { margin-top: 2.5em; }
   content: normal;
 }
 
-.article .highlight {
+/*.article .highlight {
   background: #ffffff;
 }
 
@@ -798,7 +800,7 @@ h3 { margin-top: 2.5em; }
 .article .highlight .gc {
   color: #999;
   background-color: #EAF2F5;
-}
+}*/
 
 .article .octicon {
   font: normal normal 16px octicons-anchor;

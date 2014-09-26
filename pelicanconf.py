@@ -53,6 +53,8 @@ GITHUB_URL = u"https://github.com/dragondjf"
 GITHUB_POSITION = "right"
 
 MENUITEMS = (("QFramer","http://qt.qframer.com"),
+            ("QMarkdowner","https://github.com/dragondjf/QMarkdowner"),
+            ("QSetuper","https://github.com/dragondjf/QSetuper"),
 			)
 
 # Blogroll
@@ -67,7 +69,8 @@ SOCIAL = (('Google', 'http://wen.lu/'),
           ('腾讯AlloyTeam', 'http://www.alloyteam.com/'),
           ('codrops', 'http://tympanus.net/codrops/'),
           ('ui-cloud', 'http://ui-cloud.com/'),
-          ('easyicon', 'http://www.easyicon.net/')
+          ('easyicon', 'http://www.easyicon.net/'),
+          ('programiz', 'http://www.programiz.com/')
          )
 
 
