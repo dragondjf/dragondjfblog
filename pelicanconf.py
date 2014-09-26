@@ -57,16 +57,18 @@ MENUITEMS = (("QFramer","http://qt.qframer.com"),
 
 # Blogroll
 LINKS = (('Github', 'https://github.com/dragondjf'),
-         ('阮一峰', 'http://www.ruanyifeng.com/blog/')
+         ('阮一峰', 'http://www.ruanyifeng.com/blog/'),
+         ('K Hong', 'http://www.bogotobogo.com/')
          )
 
 # Social widget
 SOCIAL = (('Google', 'http://wen.lu/'),
           ('百度FEX', 'http://fex.baidu.com/'),
           ('腾讯AlloyTeam', 'http://www.alloyteam.com/'),
-          ('codrops', 'http://tympanus.net/codrops/')
+          ('codrops', 'http://tympanus.net/codrops/'),
+          ('ui-cloud', 'http://ui-cloud.com/'),
+          ('easyicon', 'http://www.easyicon.net/')
          )
-
 
 
 #拷贝静态目录 Pelican 就会将img目录拷贝到 output/static/

@@ -447,7 +447,7 @@ h3 { margin-top: 2.5em; }
 .article table th,
 .article table td {
   padding: 5px 5px;
-  border: 1px solid #ddd;
+  border: 1px solid black;
 }
 
 .article table tr {
@@ -501,8 +501,8 @@ h3 { margin-top: 2.5em; }
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: #f7f7f7;
-  border-radius: 3px;
+  background-color: transparent;
+  border:none;
 }
 
 .article .highlight pre {
