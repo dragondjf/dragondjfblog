@@ -503,7 +503,7 @@ h3 { margin-top: 2.5em; }
   overflow: auto;
   font-size: 85%;
   line-height: 1.45;
-  background-color: transparent;
+  background-color: rgb(196, 240, 240);
   border:none;
 }
 
@@ -524,7 +524,7 @@ h3 { margin-top: 2.5em; }
   overflow: initial;
   line-height: inherit;
   word-wrap: normal;
-  background-color: transparent;
+/*  background-color: transparent;*/
   border: 0;
 }
 
