@@ -60,7 +60,8 @@ MENUITEMS = (("QFramer","http://qt.qframer.com"),
 # Blogroll
 LINKS = (('Github', 'https://github.com/dragondjf'),
          ('阮一峰', 'http://www.ruanyifeng.com/blog/'),
-         ('K Hong', 'http://www.bogotobogo.com/')
+         ('K Hong', 'http://www.bogotobogo.com/'),
+         ('邹业盛', 'http://www.zouyesheng.com/')
          )
 
 # Social widget
