@@ -71,7 +71,8 @@ SOCIAL = (('Google', 'http://wen.lu/'),
           ('codrops', 'http://tympanus.net/codrops/'),
           ('ui-cloud', 'http://ui-cloud.com/'),
           ('easyicon', 'http://www.easyicon.net/'),
-          ('programiz', 'http://www.programiz.com/')
+          ('programiz', 'http://www.programiz.com/'),
+          ('JavaScript 标准参考教程', 'http://javascript.ruanyifeng.com/'),
          )
 
 
