@@ -60,7 +60,8 @@ MENUITEMS = (("QFramer","http://qt.qframer.com"),
 # Blogroll
 LINKS = (('Github', 'https://github.com/dragondjf'),
          ('阮一峰', 'http://www.ruanyifeng.com/blog/'),
-         ('K Hong', 'http://www.bogotobogo.com/')
+         ('K Hong', 'http://www.bogotobogo.com/'),
+         ('邹业盛', 'http://www.zouyesheng.com/')
          )
 
 # Social widget
@@ -71,7 +72,8 @@ SOCIAL = (('Google', 'http://wen.lu/'),
           ('codrops', 'http://tympanus.net/codrops/'),
           ('ui-cloud', 'http://ui-cloud.com/'),
           ('easyicon', 'http://www.easyicon.net/'),
-          ('programiz', 'http://www.programiz.com/')
+          ('programiz', 'http://www.programiz.com/'),
+          ('JavaScript 标准参考教程', 'http://javascript.ruanyifeng.com/'),
          )
 
 

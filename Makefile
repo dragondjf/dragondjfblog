@@ -84,7 +84,7 @@ stopserver:
 	@echo 'Stopped Pelican and SimpleHTTPServer processes running in background.'
 
 publish:
-	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
+	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS); python computecount.py
 
 github: publish
 	cd $(GITHUBIODIR); git pull; git rm -rf *.html; cd $(BASEDIR); cp -rf $(OUTPUTDIR)/* $(GITHUBIODIR); cd $(GITHUBIODIR); git status; git add --all ; git status; git commit -m "update";git push
