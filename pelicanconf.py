@@ -66,6 +66,7 @@ LINKS = (('Github', 'https://github.com/dragondjf'),
 
 # Social widget
 SOCIAL = (('Google', 'http://wen.lu/'),
+          ('taocode', 'http://code.taobao.org/'),
           ('百度FEX', 'http://fex.baidu.com/'),
           ('百度EFE', 'http://efe.baidu.com/'),
           ('腾讯AlloyTeam', 'http://www.alloyteam.com/'),
