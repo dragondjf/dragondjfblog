@@ -55,6 +55,7 @@ GITHUB_POSITION = "right"
 MENUITEMS = (("QFramer","http://qt.qframer.com"),
             ("QMarkdowner","https://github.com/dragondjf/QMarkdowner"),
             ("QSetuper","https://github.com/dragondjf/QSetuper"),
+            ("Cloud Setuper", "http://setup.qframer.com/")
 			)
 
 # Blogroll
