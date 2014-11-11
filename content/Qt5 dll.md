@@ -42,6 +42,7 @@ Summary:
 
 ######
 5.mingw依赖库(msvc编译则无需这些库)
+
     libgcc_s_sjlj-1.dll
     libstdc++-6.dll
     libwinpthread-1.dll
@@ -78,4 +79,5 @@ Summary:
 
 #####三、总结
 QT 5虽然有了ICU，Open GL的支持，还有c++11的支持，但是依赖的DLL确实挺多，一个mingw编译的qt gui程序，光是依赖dll就有30-50M的依赖库，但是这个也不是问题，windows上可以使用<a href="http://setup.qframer.com/">Cloud Setuper</a>一键打包发布,大小与7z压缩相差无几。
+
 
