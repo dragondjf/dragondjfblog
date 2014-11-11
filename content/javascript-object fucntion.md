@@ -88,3 +88,6 @@ hasOwnProperty()只能判断指定名称的属性或者对象 是否 为该实�
         Point.prototype.c = 6;
         
         console.log(Point.prototype.isPrototypeOf(p1)) // true
+
+####6. javascript常用面试题
+<a href="http://dramin.duapp.com/#masthead">javascript常用面试题</a>>
