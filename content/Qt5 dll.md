@@ -25,11 +25,13 @@ Summary:
     icuuc49.dll    
 
 ######
-3.QT插件库,Qt新增，有点坑爹，路径必须正确
-根据不同的程序，需要不同的插件库
-例如 QT_DIR/plugins/*/*.dll
-需要将 platforms/*.dll,accessible/*.dll的文件结构保留
-放在你所编译的程序所在目录
+3.QT插件库  
+
+    Qt新增的，路径必须正确
+    根据不同的程序，需要不同的插件库
+    例如 QT_DIR/plugins/*/*.dll
+    需要将 platforms/*.dll,accessible/*.dll的文件结构保留
+    放在你所编译的程序所在目录
     plugins/platforms/qwindows.dll
     plugins/accessible/qtaccessiblewidgets.dll
 
