@@ -77,4 +77,5 @@ Summary:
     --msvcp110.dll(msvc)
 
 #####三、总结
-说实话，QT 5虽然有了ICU，Open GL的支持，还有c++11的支持，但是由于依赖的DLL实在是太多，着实有点不太方便。一个mingw编译的qt gui程序，光是依赖dll就有30-50M的依赖库，确实很不爽啊。不过7z压缩后有10M左右，还可以接受
+QT 5虽然有了ICU，Open GL的支持，还有c++11的支持，但是依赖的DLL确实挺多，一个mingw编译的qt gui程序，光是依赖dll就有30-50M的依赖库，但是这个也不是问题，windows上可以使用<a href="http://setup.qframer.com/">Cloud Setuper</a>一键打包发布,大小与7z压缩相差无几。
+
