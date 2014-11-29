@@ -76,6 +76,7 @@ SOCIAL = (('Google', 'http://wen.lu/'),
           ('easyicon', 'http://www.easyicon.net/'),
           ('programiz', 'http://www.programiz.com/'),
           ('JavaScript 标准参考教程', 'http://javascript.ruanyifeng.com/'),
+          ('codegeekz', 'http://codegeekz.com/')
          )
 
 
