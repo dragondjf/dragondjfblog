@@ -33,4 +33,4 @@ To import a plugin all you need to do is to use the regular import system. The o
 Alternatively you can also import plugins programmatically instead of using the import statement:
 
     my_plugin = plugin_source.load_plugin('my_plugin')
-详情参见：http://pluginbase.pocoo.org/
+详情参见：[http://pluginbase.pocoo.org/](http://pluginbase.pocoo.org/)
