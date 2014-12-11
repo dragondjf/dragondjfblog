@@ -13,6 +13,8 @@ QQ: 465398889
 
 个人作品：
 
-+ [QCFramer](https://github.com/dragondjf/QCFramer)
++ [QFramer](https://github.com/dragondjf/QFramer)
++ [CloudSetuper](https://github.com/dragondjf/CloudSetuper)
++ [QPFramer](https://github.com/dragondjf/QPFramer)
 + [QMarkdowner](https://github.com/dragondjf/QMarkdowner)
 + [QSetuper](https://github.com/dragondjf/QSetuper)
