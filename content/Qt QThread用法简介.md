@@ -89,7 +89,7 @@ In that example, the thread will exit after the run function has returned. There
 
 It is important to remember that a QThread instance lives in the old thread that instantiated it, not in the new thread that calls run(). This means that all of QThread's queued slots will execute in the old thread. Thus, a developer who wishes to invoke slots in the new thread must use the worker-object approach; new slots should not be implemented directly into a subclassed QThread.
 
-> **记住，一个线程实例对象存活在创建它的老线程内，不是run()启动后的新线程内，这就意味着所有线程的槽函数都将在老线程中执行；因此，开发者如果希望槽函数在新线程中执行，就必须使用work-object方式；注意：槽函数定义不应该在继承QThread的子类中实现。**
+> **记住，一个线程实例对象存活在创建它的老线程内，不是run()启动后的新线程内，但是在run()里构建的对象是属于子线程的。这就意味着所有线程的槽函数都将在老线程中执行；因此，开发者如果希望槽函数在新线程中执行，就必须使用work-object方式；注意：槽函数定义不应该在继承QThread的子类中实现。**
 
 When subclassing QThread, keep in mind that the constructor executes in the old thread while run() executes in the new thread. If a member variable is accessed from both functions, then the variable is accessed from two different threads. Check that it is safe to do so.
 
@@ -100,6 +100,7 @@ When subclassing QThread, keep in mind that the constructor executes in the old 
 + 如果非要使用继承QThread重写run方法来实现你的逻辑，请认真了解QThread的实现机制和注意事项,遵循如下原则：
 
     When to subclass and when not to?
+
     + If you do not really need an event loop in the thread, you should subclass.
     + If you need an event loop and handle signals and slots within the thread, you may not need to subclass.
     
@@ -114,6 +115,7 @@ When subclassing QThread, keep in mind that the constructor executes in the old 
 如果你想了解更多，请参考下面这些文章，并认真研读qt官方文档，**`Qt的官方文档永远是解决你问题的最好帮手`**。
 
 参考：
+
 + [You’re doing it wrong…](http://blog.qt.digia.com/blog/2010/06/17/youre-doing-it-wrong/)
 + [You were not doing so wrong.](http://woboq.com/blog/qthread-you-were-not-doing-so-wrong.html)
 + [When a QThread isn't a thread...](http://ilearnstuff.blogspot.jp/2012/08/when-qthread-isnt-thread.html)
