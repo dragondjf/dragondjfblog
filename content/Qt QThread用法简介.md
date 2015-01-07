@@ -114,8 +114,8 @@ When subclassing QThread, keep in mind that the constructor executes in the old 
 如果你想了解更多，请参考下面这些文章，并认真研读qt官方文档，**`Qt的官方文档永远是解决你问题的最好帮手`**。
 
 参考：
-[You’re doing it wrong…](http://blog.qt.digia.com/blog/2010/06/17/youre-doing-it-wrong/)
-[You were not doing so wrong.](http://woboq.com/blog/qthread-you-were-not-doing-so-wrong.html)
-[When a QThread isn't a thread...](http://ilearnstuff.blogspot.jp/2012/08/when-qthread-isnt-thread.html)
-[How to Use QThread in the Right Way (Part 1)](http://blog.debao.me/2013/08/how-to-use-qthread-in-the-right-way-part-1/)
-[How to Use QThread in the Right Way (Part 2)](http://blog.debao.me/2013/08/how-to-use-qthread-in-the-right-way-part-2/)
++ [You’re doing it wrong…](http://blog.qt.digia.com/blog/2010/06/17/youre-doing-it-wrong/)
++ [You were not doing so wrong.](http://woboq.com/blog/qthread-you-were-not-doing-so-wrong.html)
++ [When a QThread isn't a thread...](http://ilearnstuff.blogspot.jp/2012/08/when-qthread-isnt-thread.html)
++ [How to Use QThread in the Right Way (Part 1)](http://blog.debao.me/2013/08/how-to-use-qthread-in-the-right-way-part-1/)
++ [How to Use QThread in the Right Way (Part 2)](http://blog.debao.me/2013/08/how-to-use-qthread-in-the-right-way-part-2/)
