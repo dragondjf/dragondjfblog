@@ -105,6 +105,7 @@ When subclassing QThread, keep in mind that the constructor executes in the old 
     + If you need an event loop and handle signals and slots within the thread, you may not need to subclass.
     
     什么时候使用继承QThread，什么时候不使用？
+
     + 如果你不需要事件循环，你应当采用继承；
     + 如果你需要事件循环，并希望在新线程内处理信号与槽，你不需要继承。
 
